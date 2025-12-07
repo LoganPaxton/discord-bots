@@ -135,7 +135,7 @@ celerybeat.pid
 *.sage.py
 
 # Environments
-.env
+/workspaces/discord-bots/.env
 .envrc
 .venv
 env/

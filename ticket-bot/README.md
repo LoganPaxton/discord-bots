@@ -24,10 +24,6 @@ ticket-bot/
 ├── requirements.txt  
 └── README.md  
 
-````
-
----
-
 ## 🔧 Setup Instructions
 
 ### 1. Install Dependencies
@@ -38,10 +34,10 @@ pip install -r requirements.txt
 
 ### 2. Configure Environment Variables
 
-Create a file named `.env` in the project root:
+Modify the file named `.env` to include this content, replacing the your token here with your actual bot token.
 
 ```
-BOT_TOKEN=YOUR_BOT_TOKEN_HERE
+BOT_TOKEN=YOUR_TOKEN_HERE
 ```
 
 ⚠️ **Never hard-code your bot token in the code.**

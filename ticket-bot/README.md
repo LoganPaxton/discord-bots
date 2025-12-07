@@ -19,7 +19,7 @@ Users can open support tickets, and staff can manage or close them easily.
 ## 📁 Project Structure
 
 ticket-bot/  
-├── bot.py  
+├── main.py  
 ├── .env  
 ├── requirements.txt  
 └── README.md  
@@ -65,7 +65,7 @@ STAFF_ROLE_ID = 987654321098765432
 Start the bot with:
 
 ```bash
-python bot.py
+python main.py
 ```
 
 If everything is configured correctly, you’ll see:
